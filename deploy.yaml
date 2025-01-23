@@ -4,4 +4,4 @@
     - kubernetes.core.k8s
   gather_facts: false
   roles:
-    - /home/azureuser/springwebrole
+    - springwebrole
