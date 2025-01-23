@@ -1,0 +1,7 @@
+- hosts: localhost
+  collections:
+    - azure.azcollection
+    - kubernetes.core.k8s
+  gather_facts: false
+  roles:
+    - /home/azureuser/springwebrole
